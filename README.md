@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:203A43,100:2C5364&height=150&section=header&text=Sarthak%20Ramachandra&fontSize=44&fontColor=E0F2F1&fontAlignY=42&desc=AI%20%26%20ML%20Engineer%20%E2%80%94%20LLM%20Agents%20%C2%B7%20RAG%20%C2%B7%20MLOps&descSize=16&descAlignY=70&descAlign=50" width="100%" alt="Sarthak Ramachandra: AI & ML Engineer, LLM Agents, RAG, MLOps"/>
+<img src="banner.svg" width="100%" alt="Sarthak Ramachandra: AI & ML Engineer, LLM Agents, RAG, MLOps"/>
 
 <p align="center">
   <a href="https://linkedin.com/in/sarthak-ramachandra">LinkedIn</a> &nbsp;•&nbsp;
@@ -62,5 +62,3 @@
 - **AWS Academy Graduate – Cloud Foundations** — AWS Academy · Nov 2025
 - **Cloud Computing Fundamentals** — IBM SkillsBuild · Sep 2025
 - **Linux for Beginners** — Infosys Springboard · Apr 2025
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:203A43,100:2C5364&height=6&section=footer" width="100%" alt=""/>
