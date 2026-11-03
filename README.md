@@ -1,72 +1,66 @@
-# Sarthak Ramachandra
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:203A43,100:2C5364&height=150&section=header&text=Sarthak%20Ramachandra&fontSize=44&fontColor=E0F2F1&fontAlignY=42&desc=AI%20%26%20ML%20Engineer%20%E2%80%94%20LLM%20Agents%20%C2%B7%20RAG%20%C2%B7%20MLOps&descSize=16&descAlignY=70&descAlign=50" width="100%" alt="Sarthak Ramachandra: AI & ML Engineer, LLM Agents, RAG, MLOps"/>
 
-**AI & ML undergraduate · LLM agents · RAG · MLOps**
-B.Tech in Artificial Intelligence & Machine Learning, Dayananda Sagar University, Bengaluru (2023 – 2027)
+<p align="center">
+  <a href="https://linkedin.com/in/sarthak-ramachandra">LinkedIn</a> &nbsp;•&nbsp;
+  <a href="mailto:sarthakr1003@gmail.com">sarthakr1003@gmail.com</a> &nbsp;•&nbsp;
+  <a href="https://leetcode.com/u/SarthakRam/">LeetCode</a> &nbsp;•&nbsp;
+  Bengaluru, India
+</p>
 
-I build production-style LLM and MLOps systems end to end: agentic workflows with human-in-the-loop checks,
-retrieval-augmented generation pipelines, and monitoring that catches data drift, performance decay and bias,
-from FastAPI backends and vector stores to Docker deployments and MLflow tracking.
+> B.Tech in Artificial Intelligence & Machine Learning, Dayananda Sagar University (2023 – 2027).
+> I build production-style LLM and MLOps systems end to end: agentic workflows with human-in-the-loop checks,
+> retrieval-augmented generation pipelines, and monitoring that catches data drift, performance decay and bias.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-sarthak--ramachandra-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/sarthak-ramachandra)
-[![Email](https://img.shields.io/badge/Email-sarthakr1003%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:sarthakr1003@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-SarthakRam-FFA116?logo=leetcode&logoColor=black)](https://leetcode.com/u/SarthakRam/)
+<br/>
 
----
+## ◆ Featured work
 
-## Featured projects
+**[ML Sentry](https://github.com/Sarthakr1003/ML-sentry-capstone)** — *agentic ML governance layer*
+<br/>Runs in Docker beside a live model, reads its metrics from MLflow and sends LLM-judged alerts for drift, decay and bias.
+<br/>`15/15 faults caught` `0 false alarms` `paper submitted to IITCEE 2027`
+<br/><sub>LangGraph · MLflow · Evidently AI · Groq · Ollama · Docker</sub>
 
-| Project | What it does | Highlights | Stack |
-|---|---|---|---|
-| [**ML Sentry**](https://github.com/Sarthakr1003/ML-sentry-capstone) | Model-agnostic governance layer that watches a live model's metrics in MLflow and sends LLM-judged alerts for drift, decay and bias | 15/15 faulty batches caught with zero delay, 0 false alarms; paper submitted to IITCEE 2027 | LangGraph, MLflow, Evidently AI, Groq, Ollama, Docker |
-| [**AGAGI**](https://github.com/Sarthakr1003/AGAGI) | Agentic code reviewer that combines Semgrep with LLM reasoning to find bugs and vulnerabilities and propose fixes | 6/6 correct verdicts, 4/4 fixes verified, 0 false alarms; 57-test pytest suite | Python, LangGraph, Gemini/Groq, Semgrep |
-| [**RAGOps**](https://github.com/Sarthakr1003/Ragops-clinical-decision-support) | RAG pipeline for clinical decision support with hybrid retrieval and reranking | Full stack in Docker Compose; MLflow experiment tracking | LangChain, ChromaDB, Docker, MLflow |
-| [**SIM-Swap Fraud Agent**](https://github.com/Sarthakr1003/sim-swap-agent) | Detects SIM-swap fraud in real time and triggers OTP step-up verification | Runs fully locally on LLaMA 3.1 8B; rule-grounded output schema | FastAPI, Pydantic, Ollama, SMTP |
-| [**ECG Lead Reconstruction**](https://github.com/Sarthakr1003/Multimodal-ecg-lead-reconstruction) | Multimodal model that reconstructs 5 missing ECG leads from 7 | 21,837 PTB-XL records; mean RMSE 0.424 | PyTorch, CLIP ViT-L/14 |
+**[AGAGI](https://github.com/Sarthakr1003/AGAGI)** — *agentic code reviewer & security triage*
+<br/>Combines Semgrep static analysis with LLM reasoning to find bugs and vulnerabilities, with a human approval gate before any fix.
+<br/>`6/6 correct verdicts` `4/4 fixes verified` `57-test pytest suite`
+<br/><sub>Python · LangGraph · Gemini / Groq · Semgrep</sub>
 
----
+**[RAGOps](https://github.com/Sarthakr1003/Ragops-clinical-decision-support)** — *clinical decision support*
+<br/>RAG pipeline with hybrid retrieval and reranking, containerised with Docker Compose and tracked in MLflow.
+<br/><sub>LangChain · ChromaDB · Docker · MLflow</sub>
 
-## Skills
+**[SIM-Swap Fraud Agent](https://github.com/Sarthakr1003/sim-swap-agent)** — *real-time fraud detection*
+<br/>Local LLaMA 3.1 8B agent that flags SIM-swap fraud and triggers OTP step-up verification, with a rule-grounded output schema.
+<br/><sub>FastAPI · Pydantic · Ollama · SMTP</sub>
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?logo=mysql&logoColor=white)
+**[ECG Lead Reconstruction](https://github.com/Sarthakr1003/Multimodal-ecg-lead-reconstruction)** — *multimodal deep learning*
+<br/>Reconstructs 5 missing ECG leads from 7 using a CLIP-conditioned model trained on 21,837 PTB-XL records.
+<br/>`mean RMSE 0.424`
+<br/><sub>PyTorch · CLIP ViT-L/14</sub>
 
-**AI / LLM**
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?logo=langchain&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?logo=langchain&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?logo=ollama&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?logo=googlegemini&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036)
+<br/>
 
-**ML & MLOps**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white)
-![Evidently AI](https://img.shields.io/badge/Evidently_AI-ED0400)
+## ◆ Toolbox
 
-**Backend & Data**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?logo=pydantic&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446)
+<p>
+  <img src="https://skillicons.dev/icons?i=py,cpp,pytorch,tensorflow,sklearn,opencv,fastapi,docker,linux,git,mysql,sqlite&perline=12" alt="Python, C++, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Docker, Linux, Git, MySQL, SQLite"/>
+</p>
 
-**Infra & Tools**
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
-![Semgrep](https://img.shields.io/badge/Semgrep-2D2D2D)
+| | |
+|---|---|
+| **LLM & agents** | LangGraph, LangChain, Ollama, Gemini & Groq APIs, RAG, prompt grounding |
+| **MLOps** | MLflow, Evidently AI, Fairlearn, Docker Compose |
+| **Backend & data** | FastAPI, Pydantic, REST APIs, Streamlit, ChromaDB |
+| **Testing & security** | pytest, Semgrep |
 
----
+<br/>
 
-## Certifications
+## ◆ Certifications
 
-- AWS Academy Graduate – Cloud Foundations (Nov 2025)
-- Application of AI, InsurTech & Real Estate Technology – Wharton, Coursera (Apr 2026)
-- Cloud Computing Fundamentals – IBM SkillsBuild (Sep 2025)
-- Linux for Beginners – Infosys Springboard (Apr 2025)
+- **Accessing Hadoop Data Using Hive** — IBM, Cognitive Class · Nov 2026
+- **Application of AI, InsurTech & Real Estate Technology** — Wharton, Coursera · Apr 2026
+- **AWS Academy Graduate – Cloud Foundations** — AWS Academy · Nov 2025
+- **Cloud Computing Fundamentals** — IBM SkillsBuild · Sep 2025
+- **Linux for Beginners** — Infosys Springboard · Apr 2025
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F2027,50:203A43,100:2C5364&height=6&section=footer" width="100%" alt=""/>
